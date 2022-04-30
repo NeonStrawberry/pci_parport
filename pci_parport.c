@@ -69,7 +69,7 @@ static int __init ModuleInit(void) {
 
 	/* Request and Map BAR0 */
 	if(pci_request_region(ptr, 0, "pci_parport_bar0")){
-		printk("pci_parport - Could not request BAR0! MAybe already used?\n");
+		printk("pci_parport - Could not request BAR0! Maybe already used?\n");
 		return -1;
 	}
 
