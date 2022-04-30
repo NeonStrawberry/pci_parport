@@ -1,6 +1,6 @@
 # General
 
-This repository contains a simple Linux Kernel Module for a PCI to Parallel Port Adapter. It was made for educational purposes and doesn't intend to replace an existing driver!
+This repository contains a simple Linux Kernel Module for a PCI to parallel port adapter. It was made for educational purposes and doesn't intend to replace an existing driver!
 
 # Content
 
@@ -9,7 +9,7 @@ This repository contains a simple Linux Kernel Module for a PCI to Parallel Port
 
 # Functionality
 
-I have written this code for a PCI to Parallel Port Adapter to which I have connected a little board. On the board, a 7 segment display is connected to the Data Out Pins. 5 DIP-Switches are connected to the inputs of the port. The Linux Kernel Module reads in the state of the DIP-switches every 200ms and then sets the 7 segment display according to the DIP's value. 
+I have written this code for a PCI to parallel port adapter to which I have connected a little board. On the board, a 7 segment display is connected to the Data Out Pins. 5 DIP-Switches are connected to the inputs of the port. The Linux Kernel Module reads in the state of the DIP-switches every 200ms and then sets the 7 segment display according to the DIP's value. 
 
 But the purpose of this Linux Kernel Module is to show you how to access a PCI device and its IO space.
 
